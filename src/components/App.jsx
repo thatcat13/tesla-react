@@ -1,8 +1,10 @@
 import React from 'react';
 import Nav from './Nav';
-import Header from './Header';
+import Body from './Body';
 import Footer from './Footer';
+import ModelX from './ModelX';
 import { Switch, Route } from 'react-router-dom';
+import Error404 from './Error404';
 
 function App() {
   return (
@@ -14,8 +16,11 @@ function App() {
           }
           `}</style>
       <Nav />
-      <Header />
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/jWreyC2l-dw?rel=0&amp;controls=0&amp;showinfo=0&loop=1&autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      <Switch>
+        <Route exact path='/' component={Body} />
+        <Route path='/modelX' component={ModelX} />
+        <Route component={Error404} />
+      </Switch>
       <Footer />
     </div>
   );

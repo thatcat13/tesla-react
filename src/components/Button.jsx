@@ -2,11 +2,11 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 function Button(){
- const buttonStyles = {
-   backgroundColor: 'grey',
-   width: 75,
-   height: 50
- }
+  const buttonStyles = {
+    backgroundColor: 'grey',
+    width: 75,
+    height: 50
+  };
 
   return (
     <div>

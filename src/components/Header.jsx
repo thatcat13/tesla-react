@@ -3,11 +3,11 @@ import { Link } from 'react-router-dom';
 import Button from './Button';
 
 function Header(){
- const headerStyles = {
-   display: 'flex',
-   flexDirection: 'column',
-   alignItems: 'center'
- }
+  const headerStyles = {
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center'
+  };
 
   return (
     <div style={headerStyles}>

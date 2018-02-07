@@ -6,12 +6,12 @@ function Footer(){
     display: 'flex',
     justifyContent: 'center',
     flexDirection: 'space-around'
-  }
+  };
   const footerLinkStyles = {
     textDecoration: 'none',
     color: 'black',
     padding: 10
-  }
+  };
 
   return (
     <div style={footerDivStyles}>
