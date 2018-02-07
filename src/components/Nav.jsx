@@ -3,6 +3,13 @@ import Logo from './Logo';
 import { Link } from 'react-router-dom';
 
 function Nav(){
+  const mainDivStyles = {
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    width: '100%',
+    padding: 10
+  };
   const divStyles = {
     display: 'flex',
     justifyContent: 'center',
@@ -11,11 +18,11 @@ function Nav(){
   const linkStyles = {
     textDecoration: 'none',
     color: 'black',
-    padding: 10
+    padding: 5
   };
 
   return (
-    <div>
+    <div style={mainDivStyles}>
       <div>
         <Link to="/"><Logo /></Link>
       </div>
@@ -25,6 +32,8 @@ function Nav(){
         <Link to="/" style={linkStyles}>MODEL 3</Link>
         <Link to="/" style={linkStyles}>ROADSTER</Link>
         <Link to="/" style={linkStyles}>ENERGY</Link>
+      </div>
+      <div>
         <Link to="/" style={linkStyles}>SHOP</Link>
         <Link to="/" style={linkStyles}>SIGN IN</Link>
       </div>

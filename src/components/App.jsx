@@ -10,6 +10,11 @@ function App() {
   return (
     <div>
       <style jsx global>{`
+          * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+          }
           body {
             font-family: sans-serif;
             width: 100%;

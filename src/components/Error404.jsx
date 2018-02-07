@@ -22,7 +22,7 @@ function Error404(props){
     <div style={errorDivStyles}>
       <h2>The page {props.location.pathname} does not exist!</h2>
       <img style={imgStyles} src={error}/>
-      <h3>Would you like to return <Link to="/">home</Link> instead?</h3>
+      <h3>Would you like to return <Link to="/#/">home</Link> instead?</h3>
     </div>
   );
 }

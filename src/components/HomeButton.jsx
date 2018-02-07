@@ -1,15 +1,22 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-function Button(){
+function HomeButton(){
+  const buttonDivStyles = {
+    display: 'flex',
+  }
   const buttonStyles = {
-    backgroundColor: 'grey',
-    width: 75,
-    height: 50
-  };
+    backgroundColor: 'rgba(107, 107, 107, 0.24)',
+    width: 130,
+    height: 40,
+    margin: 10,
+    textAlign: 'center',
+    fontSize: '0.85em',
+    fontWeight: 'bold'
+  }
 
   return (
-    <div>
+    <div style={buttonDivStyles}>
       <button style={buttonStyles}>ORDER YOURS</button>
       <button style={buttonStyles}>NEW INVENTORY</button>
       <button style={buttonStyles}>USED INVENTORY</button>
@@ -18,4 +25,4 @@ function Button(){
   );
 }
 
-export default Button;
+export default HomeButton;

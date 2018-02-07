@@ -9,7 +9,7 @@ function Logo(){
   };
   return (
     <div>
-      <Link to='/'><img style={logoStyle} src={logo}/></Link>
+      <img style={logoStyle} src={logo}/>
     </div>
   );
 }

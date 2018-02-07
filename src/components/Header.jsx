@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Button from './Button';
+import HomeButton from './HomeButton';
 
 function Header(){
   const headerStyles = {
@@ -13,7 +13,7 @@ function Header(){
     <div style={headerStyles}>
       <h1>Quickest Acceleration.</h1>
       <h1>Longest Range. The Safest Cars Ever.</h1>
-      <Button />
+      <HomeButton />
     </div>
   );
 }
