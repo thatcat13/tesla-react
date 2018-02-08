@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 function HomeButton(){
   const buttonDivStyles = {
     display: 'flex',
-  }
+  };
   const buttonStyles = {
     backgroundColor: 'rgba(107, 107, 107, 0.35)',
     width: 130,
@@ -17,7 +17,7 @@ function HomeButton(){
     color: 'white',
     textShadow: '2px 2px black'
 
-  }
+  };
 
   return (
     <div style={buttonDivStyles}>

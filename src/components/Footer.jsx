@@ -8,17 +8,17 @@ function Footer(){
     left: '50%',
     width: '100%',
     transform: 'translate(-50%, 0)'
-  }
+  };
   const footerLinkDivStyles = {
     display: 'flex',
     justifyContent: 'center',
     flexDirection: 'space-around'
-  }
+  };
   const footerLinkStyles = {
     textDecoration: 'none',
     color: 'white',
     padding: 10
-  }
+  };
 
   return (
     <div style={footerDivStyles}>

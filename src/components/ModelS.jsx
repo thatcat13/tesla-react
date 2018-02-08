@@ -1,6 +1,5 @@
 import React from 'react';
 import Nav from './Nav';
-import logo from './../assets/images/logo.png';
 import modelS from './../assets/images/modelS.jpg';
 import ModelXButton from './ModelXButton';
 import { Link } from 'react-router-dom';
@@ -10,7 +9,7 @@ function ModelS(){
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',
-  }
+  };
   const modelSStyle = {
     width: '100%',
     margin: '0 auto',

@@ -6,15 +6,11 @@ import error from './../assets/images/error.jpg';
 function Error404(props){
   const errorDivStyles = {
     textAlign: 'center'
-  }
+  };
 
   const imgStyles = {
     objectFit: 'cover'
-  }
-  const errorStyles = {
-    width: '100%',
-    height: 'auto'
-  }
+  };
   return (
     <div style={errorDivStyles}>
       <h2>The page {props.location.pathname} does not exist!</h2>

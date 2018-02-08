@@ -1,6 +1,5 @@
 import React from 'react';
 import Nav from './Nav';
-import logo from './../assets/images/logo.png';
 import ModelXButton from './ModelXButton';
 import { Link } from 'react-router-dom';
 
@@ -9,11 +8,6 @@ function Model3(){
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center'
-  }
-  const model3Style = {
-    width: '50%',
-    margin: '0 auto',
-    objectFit: 'cover'
   };
   return (
     <div style={model3Div}>

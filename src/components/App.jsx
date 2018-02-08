@@ -6,14 +6,6 @@ import ModelS from './ModelS';
 import Model3 from './Model3';
 import { Switch, Route } from 'react-router-dom';
 import Error404 from './Error404';
-import mountain from './../assets/images/mountain.jpg'
-import WebFont from 'webfontloader';
-
-WebFont.load({
-  google: {
-    families: ['Source Sans Pro:200', 'sans-serif']
-  }
-});
 function App() {
   return (
     <div>
@@ -24,9 +16,8 @@ function App() {
             padding: 0;
           }
           body {
-            font-family: sans-serif;
+            font-family: 'Source Sans Pro', sans-serif;
             width: 100%;
-            fontFamily: 'google'
           }
           `}</style>
       <Switch>
