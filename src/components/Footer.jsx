@@ -16,7 +16,7 @@ function Footer(){
   }
   const footerLinkStyles = {
     textDecoration: 'none',
-    color: 'black',
+    color: 'white',
     padding: 10
   }
 

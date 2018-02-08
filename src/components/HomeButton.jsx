@@ -6,13 +6,17 @@ function HomeButton(){
     display: 'flex',
   }
   const buttonStyles = {
-    backgroundColor: 'rgba(107, 107, 107, 0.24)',
+    backgroundColor: 'rgba(107, 107, 107, 0.35)',
     width: 130,
     height: 40,
     margin: 10,
     textAlign: 'center',
     fontSize: '0.85em',
-    fontWeight: 'bold'
+    fontWeight: 'bold',
+    border: 'none',
+    color: 'white',
+    textShadow: '2px 2px black'
+
   }
 
   return (

@@ -6,7 +6,7 @@ function Nav(){
   const mainDivStyles = {
     display: 'flex',
     alignItems: 'center',
-    justifyContent: 'space-between',
+    justifyContent: 'space-around',
     width: '100%',
     padding: 10
   };
@@ -17,7 +17,7 @@ function Nav(){
   };
   const linkStyles = {
     textDecoration: 'none',
-    color: 'black',
+    color: 'white',
     padding: 5
   };
 
@@ -27,9 +27,9 @@ function Nav(){
         <Link to="/"><Logo /></Link>
       </div>
       <div style={divStyles}>
-        <Link to="/" style={linkStyles}>MODEL S</Link>
+        <Link to="/modelS" style={linkStyles}>MODEL S</Link>
         <Link to="/modelX" style={linkStyles}>MODEL X</Link>
-        <Link to="/" style={linkStyles}>MODEL 3</Link>
+        <Link to="/model3" style={linkStyles}>MODEL 3</Link>
         <Link to="/" style={linkStyles}>ROADSTER</Link>
         <Link to="/" style={linkStyles}>ENERGY</Link>
       </div>

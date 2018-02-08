@@ -5,9 +5,6 @@ import error from './../assets/images/error.jpg';
 
 function Error404(props){
   const errorDivStyles = {
-    display: 'flex',
-    flexDirection: 'column',
-    alignContent: 'space-around',
     textAlign: 'center'
   }
 

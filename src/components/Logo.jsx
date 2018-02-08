@@ -5,7 +5,8 @@ import { Link } from 'react-router-dom';
 function Logo(){
 
   const logoStyle = {
-    width: 100
+    width: 100,
+    filter: 'invert(100%)'
   };
   return (
     <div>

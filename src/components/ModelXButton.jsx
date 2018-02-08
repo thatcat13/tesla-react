@@ -9,7 +9,8 @@ function ModelXButton(){
     margin: 10,
     textAlign: 'center',
     fontSize: '0.85em',
-    fontWeight: 'bold'
+    fontWeight: 'bold',
+    border: 'none'
   };
 
   return (
